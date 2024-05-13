@@ -8,7 +8,7 @@ Extended Summary:
     specific rules.
 """
 
-from utils.stack import Stack
+from .utils import *
 
 STACKS = [Stack("Left"), Stack("Middle"), Stack("Right")]
 
